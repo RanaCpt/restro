@@ -1,0 +1,251 @@
+@media screen and (max-width: 680px) {
+  header {
+    display: none;
+  }
+  .ham-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    box-shadow: 2px 2px 3px black;
+  }
+  .ham-nav.scroll {
+    background-color:#342e37
+  }
+  .ham_nav-links {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .nav-logo img {
+    width: 70px;
+  }
+  .ham_nav-links a {
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color:gold;
+    padding: 5px;
+    background: #014D3B;
+    border-radius: 10px;
+  }
+  .home-marquee {
+    width: 80%;
+  }
+  .home {
+    /* background-image: url("./assets/Camouflage\ Wallpaper\ 4K\ Hd\ Ideas.png"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .home-page{
+    padding-top: 17vh;
+  }
+  .about {
+    min-height: 100dvh;
+    height: 190dvh;
+    padding-bottom: 20px;
+  }
+  .about-container {
+    flex-direction: column;
+    padding-top: 15vh;
+    gap: 10px;
+  }
+  .about-left {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    padding: 20px;
+  }
+  .about_left-text {
+    height: 100%;
+  }
+  .about-left h2 {
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 10px;
+  }
+  .about-left h1 {
+    font-size: 24px;
+    font-family: monospace;
+  }
+  .about-right {
+    width: 100%;
+    padding: 20px;
+  }
+  .top-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .top-img img {
+    width: 100%;
+    width: 300px;
+    border-radius: 20px;
+  }
+  .top-text {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bolder;
+    line-height: 24px;
+    font-weight: 900;
+  }
+  .mid-content {
+    margin-top: 15px;
+  }
+  .mid-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  .mid-img img {
+    width: 200px;
+  }
+  .mid-text {
+    font-size: 18px;
+    font-weight: bolder;
+    line-height: 24px;
+    font-weight: 900;
+  }
+  .last-text {
+    font-size: 18px;
+    margin-top: 15px;
+    font-weight: bolder;
+    line-height: 24px;
+    font-weight: 900;
+  }
+  .services {
+    min-height: 100dvh;
+    display: block;
+    padding: 30px;
+  }
+  .service-container {
+    padding-top: 12vh;
+  }
+  .service-heading {
+    padding-top: 10px;
+    margin-bottom: 40px;
+  }
+  .service-heading h5 {
+    font-size: 15px;
+    font-family: 800;
+  }
+  .service-heading h4 {
+    font-size: 25px;
+    font-size: bolder;
+  }
+  .service-content {
+    margin-top: 30px;
+    display: block;
+    margin-bottom: 0;
+  }
+  .service-img {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 15px;
+  }
+  .service-img img {
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+  }
+  .service-texts h3 {
+    font-size: 20px;
+    font-family: 900;
+    margin-bottom: 20px;
+  }
+  .service-texts p {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    width: fit-content;
+  }
+  .service-content:nth-child(4) {
+    margin-bottom: 0;
+  }
+  .location{
+    display: block;
+  }
+  .location-content {
+    padding-top: 13vh;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .location-img{
+    height: 100%;
+    width: 100%;
+  }
+  .location-img img{
+    height: 100%;
+    width: 100%;
+  }
+  .location-address h3{
+    font-size: 20px
+  }
+  .location-address h4{
+    font-size: 13px;
+  }
+  .map img{
+    width: 20px;
+  }
+  .contact-content{
+    display: block;
+  }
+  .contact-left{
+    height: 15%;
+    display: block;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .contact-right{
+    height: 85%;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+  .contact-right{
+    padding: 0 10px;
+  }
+  .contact-left img{
+    width: 150px;
+  }
+  .content img{
+    width: 25px;
+  }
+  .content-container{
+    height: 40%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .contact-content h4{
+    font-size: 10px;
+    text-transform: uppercase;
+  }
+  .content h5{
+    font-size: 9px;
+  }
+  .contact-right h6{
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  .footer h5{
+    font-size: 15px;
+    color: white;
+  }
+  .banner{
+    background-size: cover;
+  }
+}
+
